@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25147243-8894-4BD2-9F65-D61E865111D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DD91C8D0-E9D5-43C7-B676-DBCAEEF35758}"
+	ProjectSection(SolutionItems) = preProject
+		..\FootballManager.UnitTests\TransferApprovalShould.cs = ..\FootballManager.UnitTests\TransferApprovalShould.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager", "FootballManager\FootballManager.csproj", "{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager.UnitTests", "FootballManager.UnitTests\FootballManager.UnitTests.csproj", "{3C5E4B34-516C-41EC-8AF1-8108AC15F522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5E4B34-516C-41EC-8AF1-8108AC15F522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5E4B34-516C-41EC-8AF1-8108AC15F522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5E4B34-516C-41EC-8AF1-8108AC15F522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5E4B34-516C-41EC-8AF1-8108AC15F522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051} = {25147243-8894-4BD2-9F65-D61E865111D1}
+		{3C5E4B34-516C-41EC-8AF1-8108AC15F522} = {DD91C8D0-E9D5-43C7-B676-DBCAEEF35758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B8CEE62-C06A-4BBA-8AC6-436B0EC310E1}
+	EndGlobalSection
+EndGlobal
