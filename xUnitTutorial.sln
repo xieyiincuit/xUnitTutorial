@@ -6,13 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25147243-8894-4BD2-9F65-D61E865111D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DD91C8D0-E9D5-43C7-B676-DBCAEEF35758}"
-	ProjectSection(SolutionItems) = preProject
-		..\FootballManager.UnitTests\TransferApprovalShould.cs = ..\FootballManager.UnitTests\TransferApprovalShould.cs
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager", "FootballManager\FootballManager.csproj", "{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManager", "FootballManager\FootballManager.csproj", "{DDF4E910-B43C-4E36-BF06-FCF7CCAE4051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager.UnitTests", "FootballManager.UnitTests\FootballManager.UnitTests.csproj", "{3C5E4B34-516C-41EC-8AF1-8108AC15F522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManager.UnitTests", "FootballManager.UnitTests\FootballManager.UnitTests.csproj", "{3C5E4B34-516C-41EC-8AF1-8108AC15F522}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

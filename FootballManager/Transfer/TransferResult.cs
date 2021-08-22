@@ -4,6 +4,7 @@
     {
         Approved,
         Rejected,
-        ReferredToBoss
+        ReferredToBoss,
+        Postponed
     }
 }
